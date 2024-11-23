@@ -19,7 +19,7 @@ const Main = () => {
         </div>
       </div>
       <div className="relative">
-        <Hero position={'top-52 rounded-l-full right-0'}/>
+        <Hero position={"top-52 rounded-l-full right-0"} />
         <img
           className="w-[625px] h-[475px] absolute top-8 -left-2 z-20"
           src="https://tailwindfromscratch.com/website-projects/bookmark/images/illustration-hero.svg"
