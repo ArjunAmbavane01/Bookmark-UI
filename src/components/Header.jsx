@@ -12,7 +12,7 @@ const Header = () => {
         <div className="hover:text-[#fa5757] cursor-pointer"> Features</div>
         <div className="hover:text-[#fa5757] cursor-pointer">Download </div>
         <div className="hover:text-[#fa5757] cursor-pointer">FAQ</div>
-        <div className="duration-400 transition-colors bg-[#fa5757] border-2 border-white rounded-lg py-2 px-10 text-white  hover:bg-white hover:text-[#fa5757] hover:border-2 hover:border-[#fa5757] cursor-pointer">
+        <div className="duration-400 transition-colors bg-[#fa5757] border-2 border-white rounded-lg py-2 px-10 text-white hover:bg-white hover:text-[#fa5757] hover:border-[#fa5757] cursor-pointer">
           Login
         </div>
       </div>

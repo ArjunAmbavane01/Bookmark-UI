@@ -1,4 +1,5 @@
 import "./App.css";
+import Extension from "./components/Extension";
 import Features from "./components/Features";
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Main />
       <Features />
+      <Extension />
     </>
   );
 }
