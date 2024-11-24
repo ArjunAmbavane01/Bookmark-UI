@@ -2,7 +2,7 @@ import { useState } from "react";
 import Hero from "./Hero";
 
 const Tab = () => {
-  const [activeTab, setActiveTab] = useState(3);
+  const [activeTab, setActiveTab] = useState(1);
   return (
     <div className="mt-16 h-[500px]">
       <div className="text-lg font-normal text-neutral-700  w-[45%] mx-auto h-[50px] border-neutral-200 border-b-[1px] relative">
@@ -63,7 +63,7 @@ const Tab1 = () => {
           interface gives you complete control over how you manage your
           favourite sites.
         </div>
-        <div className="transition-colors duration-400 cursor-pointer mt-10 p-4 border-2 w-[125px] flex justify-center border-white rounded-lg bg-[#5368df] text-white hover:text-[#5368df] hover:bg-white hover:border-[#5368df]">
+        <div className="transition-colors duration-400 cursor-pointer mt-10 p-3 border-2 w-[125px] flex justify-center border-white rounded-lg bg-[#5368df] text-white hover:text-[#5368df] hover:bg-white hover:border-[#5368df]">
           More Info
         </div>
       </div>
@@ -74,7 +74,6 @@ const Tab1 = () => {
 const Tab2 = () => {
   return (
     <>
-      {" "}
       <div className="relative">
         <Hero position={"top-36 rounded-r-full left-0"} />
         <img
@@ -89,7 +88,7 @@ const Tab2 = () => {
           Our powerful search feature will help you find saved sites in no time
           at all. No need to trawl through all of your bookmarks.
         </div>
-        <div className="transition-colors duration-400 cursor-pointer mt-10 p-4 border-2 w-[125px] flex justify-center border-white rounded-lg bg-[#5368df] text-white hover:text-[#5368df] hover:bg-white hover:border-[#5368df]">
+        <div className="transition-colors duration-400 cursor-pointer mt-10 p-3 border-2 w-[125px] flex justify-center border-white rounded-lg bg-[#5368df] text-white hover:text-[#5368df] hover:bg-white hover:border-[#5368df]">
           More Info
         </div>
       </div>
@@ -100,7 +99,6 @@ const Tab2 = () => {
 const Tab3 = () => {
   return (
     <>
-      {" "}
       <div className="relative">
         <Hero position={"top-36 rounded-r-full left-0"} />
         <img
@@ -115,7 +113,7 @@ const Tab3 = () => {
           Easily share your bookmarks and collections with others. Create a
           shareable a link that you can send at the click of a button.
         </div>
-        <div className="transition-colors duration-400 cursor-pointer mt-10 p-4 border-2 w-[125px] flex justify-center border-white rounded-lg bg-[#5368df] text-white hover:text-[#5368df] hover:bg-white hover:border-[#5368df]">
+        <div className="transition-colors duration-400 cursor-pointer mt-10 p-3 border-2 w-[125px] flex justify-center border-white rounded-lg bg-[#5368df] text-white hover:text-[#5368df] hover:bg-white hover:border-[#5368df]">
           More Info
         </div>
       </div>
